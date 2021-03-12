@@ -1,0 +1,334 @@
+**********************************************************************
+*  Date: 2021-02-26 17:22:39
+*  User: LNTIES\99002305
+*  Tool: PGT V1.0.0.22 configured for SPA2 SUM
+**********************************************************************
+
+
+>>> Importing SPA2_AirSusp_1
+>>> Importing _AirSusp_1
+
+
+
+### Updated parameters ### ##########################################################
+
+# AirPMngt_AllwPMeasAftInhbnTi #
+Function.......... = 
+Variable.......... = AirPMngt_AllwPMeasAftInhbnTi
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+Tunable........... = true
+
+Version........... = 3     ==>     4
+Status............ = 0     ==>     40
+
+
+# AirPMngt_TankPTar #
+Function.......... = 
+Variable.......... = AirPMngt_TankPTar
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 30
+Min............... = 0
+Tunable........... = true
+
+Version........... = 1     ==>     2
+Status............ = 0     ==>     40
+
+
+# AirPMngt_AirSprgFFrntOutpTbl #
+Function.......... = 
+Variable.......... = AirPMngt_AirSprgFFrntOutpTbl
+Type.............. = single
+Unit.............. = N
+Dim............... = (12, 12)
+Max............... = 100000
+Min............... = 0
+Tunable........... = true
+
+Version........... = 1     ==>     2
+Status............ = 0     ==>     60
+
+
+# AirPMngt_PMeasDurn #
+Function.......... = 
+Variable.......... = AirPMngt_PMeasDurn
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 10
+Min............... = 0
+Tunable........... = true
+
+Version........... = 6     ==>     7
+Value............. = 1     ==>     1112
+
+
+# AirPMngt_TiPMeasTrig #
+Function.......... = 
+Variable.......... = AirPMngt_TiPMeasTrig
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+Tunable........... = true
+
+Version........... = 3     ==>     4
+Value............. = 1800     ==>     18001
+
+#####################################################################################
+
+
+**********************************************************************
+*  Date: 2021-02-26 17:22:39
+*  User: LNTIES\99002305
+*  Tool: PGT V1.0.0.22 configured for  
+**********************************************************************
+
+
+>>> Importing SPA2_AirSusp_1
+>>> Importing _AirSusp_1
+
+
+
+### Updated parameters ### ##########################################################
+
+# AirPMngt_AllwPMeasAftInhbnTi #
+Function.......... = 
+Variable.......... = AirPMngt_AllwPMeasAftInhbnTi
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+Tunable........... = true
+
+Version........... = 3     ==>     4
+Status............ = 0     ==>     40
+
+
+# AirPMngt_TankPTar #
+Function.......... = 
+Variable.......... = AirPMngt_TankPTar
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 30
+Min............... = 0
+Tunable........... = true
+
+Version........... = 1     ==>     2
+Status............ = 0     ==>     40
+
+
+# AirPMngt_AirSprgFFrntOutpTbl #
+Function.......... = 
+Variable.......... = AirPMngt_AirSprgFFrntOutpTbl
+Type.............. = single
+Unit.............. = N
+Dim............... = (12, 12)
+Max............... = 100000
+Min............... = 0
+Tunable........... = true
+
+Version........... = 1     ==>     2
+Status............ = 0     ==>     60
+
+
+# AirPMngt_PMeasDurn #
+Function.......... = 
+Variable.......... = AirPMngt_PMeasDurn
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 10
+Min............... = 0
+Tunable........... = true
+
+Version........... = 6     ==>     7
+Value............. = 1     ==>     1112
+
+
+# AirPMngt_TiPMeasTrig #
+Function.......... = 
+Variable.......... = AirPMngt_TiPMeasTrig
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+Tunable........... = true
+
+Version........... = 3     ==>     4
+Value............. = 1800     ==>     18001
+
+#####################################################################################
+
+
+**********************************************************************
+*  Date: 2021-02-26 17:22:53
+*  User: LNTIES\99002305
+*  Tool: PGT V1.0.0.22 configured for SPA2 SUM
+**********************************************************************
+
+
+>>> Importing SPA2_AirSusp_1
+>>> Importing _AirSusp_1
+
+
+
+### Updated parameters ### ##########################################################
+
+# AirPMngt_TiPMeasTrig #
+Function.......... = 
+Variable.......... = AirPMngt_TiPMeasTrig
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+Tunable........... = true
+
+Version........... = 4     ==>     5
+
+
+# AirPMngt_PMeasDurn #
+Function.......... = 
+Variable.......... = AirPMngt_PMeasDurn
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 10
+Min............... = 0
+Tunable........... = true
+
+Version........... = 7     ==>     8
+
+
+# AirPMngt_AirSprgFFrntOutpTbl #
+Function.......... = 
+Variable.......... = AirPMngt_AirSprgFFrntOutpTbl
+Type.............. = single
+Unit.............. = N
+Dim............... = (12, 12)
+Max............... = 100000
+Min............... = 0
+Tunable........... = true
+
+Version........... = 2     ==>     3
+
+
+# AirPMngt_TankPTar #
+Function.......... = 
+Variable.......... = AirPMngt_TankPTar
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 30
+Min............... = 0
+Tunable........... = true
+
+Version........... = 2     ==>     3
+
+
+# AirPMngt_AllwPMeasAftInhbnTi #
+Function.......... = 
+Variable.......... = AirPMngt_AllwPMeasAftInhbnTi
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+Tunable........... = true
+
+Version........... = 4     ==>     5
+
+#####################################################################################
+
+
+**********************************************************************
+*  Date: 2021-02-26 17:22:53
+*  User: LNTIES\99002305
+*  Tool: PGT V1.0.0.22 configured for  
+**********************************************************************
+
+
+>>> Importing SPA2_AirSusp_1
+>>> Importing _AirSusp_1
+
+
+
+### Updated parameters ### ##########################################################
+
+# AirPMngt_TiPMeasTrig #
+Function.......... = 
+Variable.......... = AirPMngt_TiPMeasTrig
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+Tunable........... = true
+
+Version........... = 4     ==>     5
+
+
+# AirPMngt_PMeasDurn #
+Function.......... = 
+Variable.......... = AirPMngt_PMeasDurn
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 10
+Min............... = 0
+Tunable........... = true
+
+Version........... = 7     ==>     8
+
+
+# AirPMngt_AirSprgFFrntOutpTbl #
+Function.......... = 
+Variable.......... = AirPMngt_AirSprgFFrntOutpTbl
+Type.............. = single
+Unit.............. = N
+Dim............... = (12, 12)
+Max............... = 100000
+Min............... = 0
+Tunable........... = true
+
+Version........... = 2     ==>     3
+
+
+# AirPMngt_TankPTar #
+Function.......... = 
+Variable.......... = AirPMngt_TankPTar
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 30
+Min............... = 0
+Tunable........... = true
+
+Version........... = 2     ==>     3
+
+
+# AirPMngt_AllwPMeasAftInhbnTi #
+Function.......... = 
+Variable.......... = AirPMngt_AllwPMeasAftInhbnTi
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+Tunable........... = true
+
+Version........... = 4     ==>     5
+
+#####################################################################################
+
+

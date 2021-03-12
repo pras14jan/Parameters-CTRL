@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CarConfiguration Project="spa23" ECU="sum" Systems="Leveling">
+  <Configuration />
+  <Parameters>
+    <Function Name="Parameter_Init_File_Damping">
+      <Parameter Name="LvlgCtrl4Cornr_LvlCtrlMod_DoorStsDft" Version="1">
+        <Status>0</Status>
+        <MatlabType>Enum: DoorSts2</MatlabType>
+        <CType />
+        <Unit>-</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>DoorSts2.Ukwn</Value>
+        <DefaultValue>DoorSts2.Ukwn</DefaultValue>
+        <Min />
+        <Max />
+        <IsTunable>true</IsTunable>
+      </Parameter>
+    </Function>
+  </Parameters>
+</CarConfiguration>

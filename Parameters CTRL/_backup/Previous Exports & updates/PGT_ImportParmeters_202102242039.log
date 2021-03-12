@@ -1,0 +1,619 @@
+**********************************************************************
+*  Date: 2021-02-24 20:39:15
+*  User: LNTIES\99002305
+*  Tool: PGT V1.0.0.22 configured for SPA2 SUM
+**********************************************************************
+
+
+>>> Importing AirPMngt_par.xls
+
+
+
+### Added parameters ### ##########################################################
+
+# AirPMngt_PMeasDurn #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_PMeasDurn
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 10
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 1
+
+
+# AirPMngt_TiPMeasTrig #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TiPMeasTrig
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 1800
+
+
+# AirPMngt_AllwPMeasAftInhbnTi #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_AllwPMeasAftInhbnTi
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 2
+
+
+# AirPMngt_TankPLimLo #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TankPLimLo
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 20
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 13
+
+
+# AirPMngt_TankPLimLoCrit #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TankPLimLoCrit
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 20
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 8
+
+
+# AirPMngt_TankPLimHi #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TankPLimHi
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 50
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 40
+
+
+# AirPMngt_TankPTar #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TankPTar
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 30
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 19
+
+
+# AirPMngt_AirSprgPLimLo #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_AirSprgPLimLo
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 20
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 3
+
+
+# AirPMngt_AirSprgPLimHi #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_AirSprgPLimHi
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 20
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 10
+
+
+# AirPMngt_FrqCutOffForCornrHeiInAxleLoadEstimn #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_FrqCutOffForCornrHeiInAxleLoadEstimn
+Type.............. = single
+Unit.............. = Hz
+Dim............... = (1, 1)
+Max............... = 100
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 1
+
+
+# AirPMngt_AirSprgPFildInpTbl #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_AirSprgPFildInpTbl
+Type.............. = single
+Unit.............. = bar
+Dim............... = (12, 1)
+Max............... = 100
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = [0; 2; 4; 6; 8; 9; 10; 12; 14; 16; 18; 20]
+
+
+# AirPMngt_CornrHeiInpTbl #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_CornrHeiInpTbl
+Type.............. = single
+Unit.............. = mm
+Dim............... = (1, 12)
+Max............... = 1000
+Min............... = -1000
+
+Version........... = 1
+Status............ = 0
+Value............. = [-100 -80 -60 -50 -40 -20 0 20 40 50 60 80]
+
+
+# AirPMngt_AirSprgFFrntOutpTbl #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_AirSprgFFrntOutpTbl
+Type.............. = single
+Unit.............. = N
+Dim............... = (12, 12)
+Max............... = 100000
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = [0 200 400 600 800 900 1000 1200 1400 1600 1800 2000; 100 300 500 700 900 1000 1100 1300 1500 1700 1900 2100; 200 400 600 800 900 1000 1200 1400 1600 1800 2000 2200; 400 600 800 900 1000 1200 1400 1600 1800 2000 2200 2400; 600 800 900 1000 1200 1400 1600 
+
+
+# AirPMngt_AirSprgFReOutpTbl #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_AirSprgFReOutpTbl
+Type.............. = single
+Unit.............. = N
+Dim............... = (12, 12)
+Max............... = 100000
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = [0 200 400 600 800 900 1000 1200 1400 1600 1800 2000; 100 300 500 700 900 1000 1100 1300 1500 1700 1900 2100; 200 400 600 800 900 1000 1200 1400 1600 1800 2000 2200; 400 600 800 900 1000 1200 1400 1600 1800 2000 2200 2400; 600 800 900 1000 1200 1400 1600 
+
+
+# AirPMngt_VehSpdLgtLimForTankFillgAllwd #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_VehSpdLgtLimForTankFillgAllwd
+Type.............. = single
+Unit.............. = m/s
+Dim............... = (1, 1)
+Max............... = 300
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 10
+
+
+# AirPMngt_TiLimForFillgByOvf #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TiLimForFillgByOvf
+Type.............. = uint8
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 255
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 10
+
+
+# AirPMngt_PDifForAirSprgFillgByOvfPsbl #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_PDifForAirSprgFillgByOvfPsbl
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 255
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 8
+
+
+# AirPMngt_FrqCutOffForSnsrAirPFil #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_FrqCutOffForSnsrAirPFil
+Type.............. = single
+Unit.............. = Hz
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 1
+
+
+# AirPMngt_AirSprgPLimHiCrit #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_AirSprgPLimHiCrit
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 20
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 11
+
+
+# AirPMngt_AirSprgPLimLoCrit #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_AirSprgPLimLoCrit
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 20
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 3
+
+
+# AirPMngt_TankPLimHiCrit #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TankPLimHiCrit
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 90
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 70
+
+
+# AirPMngt_PDifForAxleOvfHi #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_PDifForAxleOvfHi
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 100
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 7
+
+
+# AirPMngt_PDifForAxleOvfMed #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_PDifForAxleOvfMed
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 100
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 5
+
+
+# AirPMngt_PDifForAxleOvfLo #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_PDifForAxleOvfLo
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 100
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 3
+
+
+# AirPMngt_PDifForCornrOvfHi #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_PDifForCornrOvfHi
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 100
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 5
+
+
+# AirPMngt_PDifForCornrOvfMed #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_PDifForCornrOvfMed
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 100
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 3
+
+
+# AirPMngt_PDifForCornrOvfLo #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_PDifForCornrOvfLo
+Type.............. = single
+Unit.............. = bar
+Dim............... = (1, 1)
+Max............... = 100
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 2
+
+
+# AirPMngt_CpCntThrshld #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_CpCntThrshld
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 180000
+
+
+# AirPMngt_PMeasCptTi #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_PMeasCptTi
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 100
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0.03
+
+
+# AirPMngt_TiWaitAftCptMeasd #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TiWaitAftCptMeasd
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 100
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0.05
+
+
+# AirPMngt_PMeasDlyAftCtrlrStrt #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_PMeasDlyAftCtrlrStrt
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 100
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 3
+
+
+# AirPMngt_TankFillgDft #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TankFillgDft
+Type.............. = boolean
+Unit.............. = -
+Dim............... = (1, 1)
+Max............... = 1
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0
+
+
+# AirPMngt_AirSuspTaskReqDft #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_AirSuspTaskReqDft
+Type.............. = Enum: AirSuspTaskTyp
+Unit.............. = -
+Dim............... = (1, 1)
+Max............... = 
+Min............... = 
+
+Version........... = 1
+Status............ = 0
+Value............. = AirSuspTaskTyp.Idle
+
+
+# AirPMngt_InhbPMeasStdDft #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_InhbPMeasStdDft
+Type.............. = boolean
+Unit.............. = -
+Dim............... = (1, 1)
+Max............... = 1
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0
+
+
+# AirPMngt_AxleLvlgActnFrntDft #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_AxleLvlgActnFrntDft
+Type.............. = boolean
+Unit.............. = -
+Dim............... = (1, 1)
+Max............... = 1
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0
+
+
+# AirPMngt_AxleLvlgActnReDft #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_AxleLvlgActnReDft
+Type.............. = boolean
+Unit.............. = -
+Dim............... = (1, 1)
+Max............... = 1
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0
+
+
+# AirPMngt_CornrLvlgActnDft #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_CornrLvlgActnDft
+Type.............. = boolean
+Unit.............. = -
+Dim............... = (1, 1)
+Max............... = 1
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0
+
+
+# AirPMngt_TiTankFillgRapidMax #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TiTankFillgRapidMax
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0.2
+
+
+# AirPMngt_TiAirSuspTaskReqRapidMax #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TiAirSuspTaskReqRapidMax
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0.2
+
+
+# AirPMngt_TiInhbPMeasStdRapidMax #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TiInhbPMeasStdRapidMax
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0.2
+
+
+# AirPMngt_TiAxleLvlgActnFrntRapidMax #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TiAxleLvlgActnFrntRapidMax
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0.2
+
+
+# AirPMngt_TiAxleLvlgActnReRapidMax #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TiAxleLvlgActnReRapidMax
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0.2
+
+
+# AirPMngt_TiCornrLvlgActnRapidMax #
+Function.......... = AirPMngt
+Variable.......... = AirPMngt_TiCornrLvlgActnRapidMax
+Type.............. = single
+Unit.............. = s
+Dim............... = (1, 1)
+Max............... = 3.4e+038
+Min............... = 0
+
+Version........... = 1
+Status............ = 0
+Value............. = 0.2
+
+#####################################################################################
+
+>>> Exported SPA2_AirSusp_1.xml
+
+

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CarConfiguration Project="SPA2" ECU="SUM" Systems="SharedService">
+  <Configuration>
+  </Configuration>
+  <Parameters>
+    <Function Name="">
+      <Parameter Name="SumModMgr_Ts" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>[s]</Unit>
+        <Dim>(1,1)</Dim>
+        <Value>2.12</Value>
+        <Max>1</Max>
+        <Min>0.002</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="SumModMgr_SafeToStopHeiThd" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>[mm]</Unit>
+        <Dim>(1,1)</Dim>
+        <Value>5</Value>
+        <Max>100</Max>
+        <Min>1</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="SumModMgr_SafeToStopTiPerSensor" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>[s]</Unit>
+        <Dim>(1,1)</Dim>
+        <Value>300</Value>
+        <Max>3600</Max>
+        <Min>1</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+    </Function>
+  </Parameters>
+</CarConfiguration>

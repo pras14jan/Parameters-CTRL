@@ -1,0 +1,32 @@
+**********************************************************************
+*  Date: 2021-03-10 17:30:49
+*  User: LNTIES\99002305
+*  Tool: PGT V1.0.0.22 configured for SPA22 sum
+**********************************************************************
+
+
+>>> Importing Parameter_Init_File_Damping.xls
+
+
+
+### Added parameters ### ##########################################################
+
+# LvlgCtrl4Cornr_LvlCtrlMod_DoorStsDft #
+Function.......... = Parameter_Init_File_Damping
+Variable.......... = LvlgCtrl4Cornr_LvlCtrlMod_DoorStsDft
+Type.............. = Enum: DoorSts2
+Unit.............. = -
+Dim............... = (1, 1)
+Max............... = 
+Min............... = 
+DefaultValue...... = DoorSts2.Ukwn
+
+Version........... = 1
+Status............ = 0
+Value............. = DoorSts2.Ukwn
+
+#####################################################################################
+
+>>> Exported SPA22_Leveling_1.xml
+
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Platform>SPA2</Platform>
+	<Project>P519</Project>
+</Configuration>
+<Variants>
+	<Setting Name="1">
+		<CarConfigSetup>
+			<Car>P519</Car>
+			<Front_weight>1500</Front_weight>
+			<Rear_weight>1500</Read_weight>
+			<Damping>CCD Int</Damping>
+			<Leveling>ECAS 42</Leveling>
+		</CarConfigSetup>
+		<SWP1> <!-- BSW & Common -->
+			<Parameter_Setting>SPA2_BSW_2.xml</Parameter_Setting>
+		</SWP1>
+		<SWP2> <!-- ASIL -->
+			<Parameter_Setting>SPA2_ASIL_4.xml</Parameter_Setting>
+		</SWP2>
+		<SWP3> <!-- Leveling -->
+			<Parameter_Setting>SPA2_Leveling_1.xml</Parameter_Setting>
+		</SWP3>
+		<SWP4> <!-- Damping -->
+			<Parameter_Setting>SPA2_Damping_3.xml</Parameter_Setting>
+		</SWP4>
+	</Setting>
+	<Setting Name="2">
+		<CarConfigSetup>
+			<Car>P519</Car>
+			<Front_weight>1600</Front_weight>
+			<Rear_weight>1400</Read_weight>
+			<Damping></Damping>
+			<Leveling>ECAS 42</Leveling>
+		</CarConfigSetup>
+		<SWP1> <!-- BSW & Common -->
+			<Parameter_Setting>SPA2_BSW_1.xml</Parameter_Setting>
+		</SWP1>
+		<SWP2> <!-- ASIL -->
+			<Parameter_Setting>SPA2_ASIL_3.xml</Parameter_Setting>
+		</SWP2>
+		<SWP3> <!-- Leveling -->
+			<Parameter_Setting>SPA2_Leveling_3.xml</Parameter_Setting>
+		</SWP3>
+		<SWP4> <!-- Damping -->
+			<Parameter_Setting>SPA2_Damping_1.xml</Parameter_Setting>
+		</SWP4>
+		<SWP5> <!-- ARC -->
+			<Parameter_Setting>SPA2_ARC_1.xml</Parameter_Setting>
+		</SWP5>
+	</Setting>
+</Variants>

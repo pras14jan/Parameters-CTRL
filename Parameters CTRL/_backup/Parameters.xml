@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CarConfiguration Project="SPA2" ECU="SUM" Systems="Leveling">
+  <Configuration>
+  </Configuration>
+  <Parameters>
+    <Function Name="">
+      <Variable Name="LvlCtrlMod_DiagcLvlChgNormMod" Version="1">
+        <Status>0</Status>
+        <Type>Bus: DiagcLvlChgReq</Type>
+        <Unit>
+        </Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0</Value>
+        <Max>1</Max>
+        <Min>0</Min>
+        <Tunable>m</Tunable>
+      </Variable>
+      <Variable Name="LvlgCtrl4Cornr_LvlCtrlMod_DoorStsDft" Version="1">
+        <Status>0</Status>
+        <Type>Enum: DoorSts2</Type>
+        <Unit>-</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>DoorSts2.Ukwn</Value>
+        <Max>
+        </Max>
+        <Min>
+        </Min>
+        <Tunable>t</Tunable>
+      </Variable>
+    </Function>
+  </Parameters>
+</CarConfiguration>
