@@ -1,4 +1,0 @@
-something went wrong
-System.NullReferenceException: Object reference not set to an instance of an object.
-   at Volvo.Pgt.Core.ParameterGenerator.ParseParameterDetailsToXml(List`1 lstParameterDetails, String projectName, String ecuName, String outputPath, ObservableCollection`1 vXlFiles) in D:\VCC\Volvo\ParameterGeneratorTool\ParameterGeneratorTool\Volvo.Pgt.Core\ParameterGenerator.cs:line 250
-Object reference not set to an instance of an object.
