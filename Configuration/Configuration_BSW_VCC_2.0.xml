@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<ECU>SUM</ECU>
+	<Project>SPA2</Project>
+	<Configuration>BSW_VCC_2.0</Configuration>
+	<Build_date>21w02d1</Build_date>
+	<Build_responsible>gvasilev</Build_responsible>
+</Configuration>
+<Parameter_mapping>
+	<System Name="Damping">
+		<Variable Name="T_BodySamp">
+			<Type>float32</Type>
+			<Dim>1</Dim>
+			<OffsetAdress>0x0</OffsetAdress>
+			<Size>4</Size>
+		</Variable>
+		<Variable Name="No_LpNum">
+			<Type>float32</Type>
+			<Dim>10</Dim>
+			<OffsetAdress>0x4</OffsetAdress>
+			<Size>40</Size>
+		</Variable>
+	</System>
+	<System Name="Leveling">
+		<Variable Name="K_BodySamp"
+			<Type>float32</Type>
+			<Dim>250</Dim>
+			<OffsetAdress>0x0</OffsetAdress>
+			<Size>1000</Size>
+		</Variable>	
+		<Variable Name="Yi_LpNum">
+			<Type>float32</Type>
+			<Dim>100</Dim>
+			<OffsetAdress>0x1000</OffsetAdress>
+			<Size>400</Size>
+		</Variable>
+	</System>
+</Parameter_mapping>
+
