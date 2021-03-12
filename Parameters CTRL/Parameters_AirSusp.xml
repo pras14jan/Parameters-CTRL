@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CarConfiguration Project="SPA2" ECU="SUM" Systems="AirSusp">
+  <Configuration>
+  </Configuration>
+  <Parameters>
+    <Function Name="">
+      <Parameter Name="AirPMngt_PMeasDurn" Version="48">
+        <Status>31</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>100</Value>
+        <Max>10</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TiPMeasTrig" Version="2">
+        <Status>200</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>180</Value>
+        <Max>3.4e+038</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AllwPMeasAftInhbnTi" Version="2">
+        <Status>400</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>2000</Value>
+        <Max>3.4e+038</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TankPLimLo" Version="2">
+        <Status>600</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>130</Value>
+        <Max>20</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TankPLimLoCrit" Version="3">
+        <Status>1000</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>140</Value>
+        <Max>20</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TankPLimHi" Version="2">
+        <Status>1000</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>4000</Value>
+        <Max>50</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TankPTar" Version="1">
+        <Status>120</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>190</Value>
+        <Max>30</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AirSprgPLimLo" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>3</Value>
+        <Max>20</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AirSprgPLimHi" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>10</Value>
+        <Max>20</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_FrqCutOffForCornrHeiInAxleLoadEstimn" Version="1">
+        <Status>180</Status>
+        <Type>single</Type>
+        <Unit>Hz</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>1800</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AirSprgPFildInpTbl" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(12, 1)</Dim>
+        <Value>[0; 2; 4; 6; 8; 9; 10; 12; 14; 16; 18; 20]</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_CornrHeiInpTbl" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>mm</Unit>
+        <Dim>(1, 12)</Dim>
+        <Value>[-100 -80 -60 -50 -40 -20 0 20 40 50 60 80]</Value>
+        <Max>1000</Max>
+        <Min>-1000</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AirSprgFFrntOutpTbl" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>N</Unit>
+        <Dim>(12, 12)</Dim>
+        <Value>[0 200 400 600 800 900 1000 1200 1400 1600 1800 2000; 100 300 500 700 900 1000 1100 1300 1500 1700 1900 2100; 200 400 600 800 900 1000 1200 1400 1600 1800 2000 2200; 400 600 800 900 1000 1200 1400 1600 1800 2000 2200 2400; 600 800 900 1000 1200 1400 1600 </Value>
+        <Max>100000</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AirSprgFReOutpTbl" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>N</Unit>
+        <Dim>(12, 12)</Dim>
+        <Value>[0 200 400 600 800 900 1000 1200 1400 1600 1800 2000; 100 300 500 700 900 1000 1100 1300 1500 1700 1900 2100; 200 400 600 800 900 1000 1200 1400 1600 1800 2000 2200; 400 600 800 900 1000 1200 1400 1600 1800 2000 2200 2400; 600 800 900 1000 1200 1400 1600 </Value>
+        <Max>100000</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_VehSpdLgtLimForTankFillgAllwd" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>m/s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>10</Value>
+        <Max>300</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TiLimForFillgByOvf" Version="1">
+        <Status>0</Status>
+        <Type>uint8</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>10</Value>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_PDifForAirSprgFillgByOvfPsbl" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>8</Value>
+        <Max>255</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_FrqCutOffForSnsrAirPFil" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>Hz</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>1</Value>
+        <Max>3.4e+038</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AirSprgPLimHiCrit" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>11</Value>
+        <Max>20</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AirSprgPLimLoCrit" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>3</Value>
+        <Max>20</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TankPLimHiCrit" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>70</Value>
+        <Max>90</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_PDifForAxleOvfHi" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>7</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_PDifForAxleOvfMed" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>5</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_PDifForAxleOvfLo" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>3</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_PDifForCornrOvfHi" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>5</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_PDifForCornrOvfMed" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>3</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_PDifForCornrOvfLo" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>bar</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>2</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AirPMngtTiSample" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0.01</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_CpCntThrshld" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>180000</Value>
+        <Max>3.4e+038</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_PMeasCptTi" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0.03</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TiWaitAftCptMeasd" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0.05</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_PMeasDlyAftCtrlrStrt" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>3</Value>
+        <Max>100</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_PMeasReqExtTrig" Version="1">
+        <Status>0</Status>
+        <Type>boolean</Type>
+        <Unit>
+        </Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0</Value>
+        <Max>1</Max>
+        <Min>0</Min>
+        <Tunable>m</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TankFillgDft" Version="1">
+        <Status>0</Status>
+        <Type>boolean</Type>
+        <Unit>-</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0</Value>
+        <Max>1</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AirSuspTaskReqDft" Version="1">
+        <Status>0</Status>
+        <Type>Enum: AirSuspTaskTyp</Type>
+        <Unit>-</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>AirSuspTaskTyp.Idle</Value>
+        <Max>
+        </Max>
+        <Min>
+        </Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_InhbPMeasStdDft" Version="1">
+        <Status>0</Status>
+        <Type>boolean</Type>
+        <Unit>-</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0</Value>
+        <Max>1</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AxleLvlgActnFrntDft" Version="1">
+        <Status>0</Status>
+        <Type>boolean</Type>
+        <Unit>-</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0</Value>
+        <Max>1</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_AxleLvlgActnReDft" Version="1">
+        <Status>0</Status>
+        <Type>boolean</Type>
+        <Unit>-</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0</Value>
+        <Max>1</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_CornrLvlgActnDft" Version="1">
+        <Status>0</Status>
+        <Type>boolean</Type>
+        <Unit>-</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0</Value>
+        <Max>1</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TiTankFillgRapidMax" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0.2</Value>
+        <Max>3.4e+038</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TiAirSuspTaskReqRapidMax" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0.2</Value>
+        <Max>3.4e+038</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TiInhbPMeasStdRapidMax" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0.2</Value>
+        <Max>3.4e+038</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TiAxleLvlgActnFrntRapidMax" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0.2</Value>
+        <Max>3.4e+038</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TiAxleLvlgActnReRapidMax" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0.2</Value>
+        <Max>3.4e+038</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+      <Parameter Name="AirPMngt_TiCornrLvlgActnRapidMax" Version="1">
+        <Status>0</Status>
+        <Type>single</Type>
+        <Unit>s</Unit>
+        <Dim>(1, 1)</Dim>
+        <Value>0.2</Value>
+        <Max>3.4e+038</Max>
+        <Min>0</Min>
+        <Tunable>t</Tunable>
+      </Parameter>
+    </Function>
+  </Parameters>
+</CarConfiguration>
